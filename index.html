@@ -240,7 +240,7 @@
       <div class="anchor"><span>Valoarea estimată a pachetului</span><span class="est">161 lei</span></div>
       <div class="price"><div class="p" translate="no">69 lei</div></div>
       <span class="pill">Plată unică · PDF-ul rămâne al tău · fără abonament</span>
-      <a class="btn" href="[[URL_CHECKOUT]]">Da, vreau să mănânc mai bine cu mai puțini bani</a>
+      <a class="btn" href="https://crocant.impultienda.ar/checkout">Da, vreau să mănânc mai bine cu mai puțini bani</a>
       <p class="small">Cele două cadouri sunt incluse gratuit în comandă.</p>
       <p class="small">Imediat după plată primești pe email tabelul de timpi și primele 20 de rețete. Restul îl primești pe email în maximum 48 de ore.</p>
     </div>
@@ -282,7 +282,7 @@
     <div class="tabs-row" translate="no"><span class="tab t30">30'</span><span class="tab t45">45'</span><span class="tab t60">60'</span></div>
     <h2>Diseară poți găti fără stres</h2>
     <p class="lead" style="color:#EDE3D0">150 de rețete, planul pe 4 săptămâni și costul fiecărei porții, pentru 69 lei, plătiți o singură dată.</p>
-    <div class="btn-wrap"><a class="btn" href="[[URL_CHECKOUT]]">Da, vreau să mă bucur din nou de cină</a><span class="micro" style="color:#B9A88F">Garanție de 14 zile</span></div>
+    <div class="btn-wrap"><a class="btn" href="https://crocant.impultienda.ar/checkout">Da, vreau să mă bucur din nou de cină</a><span class="micro" style="color:#B9A88F">Garanție de 14 zile</span></div>
   </div>
 </section>
 
@@ -292,5 +292,9 @@
   <p>Produs digital (PDF). Air fryer-ul nu este inclus.</p>
 </footer>
 
+<script>
+/* Pasa los UTM y el fbclid del anuncio al checkout, para saber de qué anuncio vino cada venta */
+(function(){var q=location.search;if(!q)return;document.querySelectorAll('a[href^="https://crocant.impultienda.ar/checkout"]').forEach(function(a){a.href=a.href+(a.href.indexOf('?')<0?q:'&'+q.slice(1));});})();
+</script>
 </body>
 </html>
